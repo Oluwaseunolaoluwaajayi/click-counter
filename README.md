@@ -1,16 +1,8 @@
 # Click Counter App
 
-A simple React app to increment, decrement, and reset a counter with edge cases for accessibility and boundary conditions.
-
-## Features
-- Increment and decrement a counter using buttons.
-- Prevents negative counts (minimum: 0).
-- Displays a message when the limit (10) is reached and disables the "Increase" button.
-- Includes a reset button to return the counter to 0.
-- Accessible UI with high-contrast colors.
-- Comprehensive unit tests for counter functionality.
+A simple React app that allows users to increment, decrement, and reset a counter between 0 and 20, with the state persisted using JSON Server.
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/click-counter.git
+   git clone https://github.com/Oluwaseunolaoluwaajayi/click-counter.git
